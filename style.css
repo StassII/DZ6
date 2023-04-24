@@ -1,0 +1,386 @@
+a{
+    text-decoration: none;
+    color: #000;
+}
+*{
+    font-family: 'Roboto', sans-serif;
+}
+.header{
+    padding-top: 32px;
+    width: 100%;
+    height: 387px;
+    background: #C5000A;
+}
+.headerWrapper{ 
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav{
+    display: flex;
+    column-gap: 27px;
+}
+.linkItem{
+    transition-duration: 0.4s;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.005em;
+}
+.linkItem:hover{ 
+    transition-duration: 0.6s;
+    font-weight: 600;
+    border-bottom: 1px solid #FFF;
+}
+.headerGroup{ 
+    display: flex;
+    align-items: center;
+    column-gap: 32px;
+}
+.btnAdd{
+    cursor: pointer;
+    width: 158px;
+    height: 48px;
+    background: #FA3C45;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFF;
+    border:none;
+}
+.headerTitle{
+    padding-top: 109px;
+    text-align: center;
+    font-size: 62px;
+    color: #FFF;
+}
+.main{
+    width: 1232px;
+    margin:0 auto;
+}
+.pageLink{
+    padding-top: 80px;
+    font-weight: 700;
+    font-size: 24px;
+    color: #000;
+}
+.content{
+    margin-top: 64px;
+    display: flex;
+    justify-content: space-between;
+}
+.contentLeft{ 
+    width: 816px;
+}
+.contentRigth{
+    width: 400px;
+}
+.video{
+    width: 100%;
+    height: 440px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #E2E2EA;
+    border-radius: 8px;
+}
+.leftTitle{ 
+    padding-top: 56px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 31px;
+    line-height: 120%;
+    letter-spacing: 0.005em;
+    color: #333333;
+}
+.leftText{
+    padding-top: 24px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    letter-spacing: 0.005em;
+    color: #92929D;
+}
+.offer{
+    transition-duration: 0.3s;
+    opacity: 0.5;
+    width: 100%;
+    height: 560px;
+    background: #C5010A;
+    border-radius: 8px;
+}
+.offer:hover{ 
+    transition-duration: 0.6s;
+    opacity: 1;
+}
+.offerTitle{
+    display: block;
+    width: 263px;
+    margin: 0 auto;
+    padding-top: 166px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 39px;
+    line-height: 120%;
+    text-align: center;
+    letter-spacing: 0.005em;
+    color: #FFFFFF;
+}
+.offerText{
+    width: 226px;
+    margin: 0 auto;
+    padding-top: 24px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 120%;
+    text-align: center;
+    letter-spacing: 0.005em;
+    color: #FFFFFF;
+}
+.offerBtn{ 
+    display: block;
+    margin: 40px auto 0 auto;
+    cursor: pointer;
+    width: 102px;
+    height: 40px;
+    border: 2px solid #FFFFFF;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 120%;
+    text-align: center;
+    letter-spacing: 0.005em;
+    color: #FFFFFF;
+    background: none;
+}
+.advantageItem{
+    display: flex;
+    align-items: center;
+    column-gap: 18px;
+    margin-bottom: 16px;
+}
+.mainLR{
+    display: flex;
+    justify-content: space-between;
+    width: 1232px;
+    margin:0 auto;
+}
+.loanCalculator{
+    width: 816px;
+    height: 679px;
+    margin: 100px 0;
+    padding: 48px auto;
+}
+.someInf{
+margin: 20px auto;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 120%;
+letter-spacing: 0.005em;
+color: #92929D;
+}
+.carPrice{
+height: 30px;
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 120%;
+letter-spacing: 0.005em;
+color: #11142D;
+}
+.priceInput{
+width: 720px;
+height: 56px;
+left: 152px;
+top: 1491px;
+border: 1px solid #FA3C45;
+border-radius: 8px;
+}
+.blocks{
+margin: 30px auto;
+display: flex;
+justify-content: space-between;
+}
+.rate{
+width: 352px;
+height: 56px;
+left: 520px;
+top: 1619px;
+border: 1px solid #FA3C45;
+border-radius: 8px;
+}
+.interestRate{
+width: 131px;
+height: 19px;
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 120%;
+letter-spacing: 0.005em;
+color: #11142D;
+}
+.periodeMonth{
+width: 131px;
+height: 19px;
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 120%;
+letter-spacing: 0.005em;
+color: #11142D;
+}
+.downPayment{
+width: 145px;
+height: 19px;
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 120%;
+letter-spacing: 0.005em;
+color: #11142D;
+}
+.inputPayment{
+width: 720px;
+height: 56px;
+border: 1px solid #FA3C45;
+border-radius: 8px;
+}
+.calculate{
+margin: 50px auto;
+display: flex;
+flex-direction: row;
+color: white;
+justify-content: center;
+align-items: center;
+gap: 10px;
+position: absolute;
+width: 120px;
+height: 48px;
+background: #FA3C45;
+border-radius: 8px;
+}
+.textCalc{
+width: 385px;
+height: 47px;
+font-style: normal;
+font-weight: 700;
+font-size: 39px;
+line-height: 120%;
+letter-spacing: 0.005em;
+color: #11142D;
+}
+.contact{
+display: block;
+width: 400px;
+height: 560px;
+}
+.textContact{
+font-style: normal;
+font-weight: 700;
+font-size: 39px;
+line-height: 120%;
+letter-spacing: 0.005em;
+color: #11142D;
+}
+.nameInput{
+margin: 25px auto;
+width: 296px;
+height: 56px;
+border: 1px solid #FA3C45;
+border-radius: 8px;
+}
+.emailInput{
+width: 296px;
+height: 56px;
+border: 1px solid #FA3C45;
+border-radius: 8px;
+}
+.messageInput{
+margin: 25px auto;
+width: 296px;
+height: 120px;
+border: 1px solid #FA3C45;
+border-radius: 8px;
+}
+.sendmessages{
+width: 168px;
+height: 56px;
+color: white;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 18px 24px;
+gap: 10px;
+background: #FA3C45;
+border-radius: 8px;
+}
+.downloadMain{
+width: 1440px;
+height: 720px;
+}
+.phone{
+    margin: 0 50px;
+}
+.newBlock{
+    display: flex;
+    justify-content: space-between;
+}
+.downloadApp{
+width: 447px;
+height: 58px;
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 120%;
+letter-spacing: 0.005em;
+color: #11142D;
+}
+.textAbout{
+width: 530px;
+height: 76px;
+margin: 20px auto;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 120%;
+letter-spacing: 0.005em;
+color: #92929D;
+}
+.downloadImg{
+    display: flex;
+    justify-content: space-between;
+}
+.appDiv{
+    width: 202px;
+    height: 60px;
+}
+.appStore{
+border: none;
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 120%;
+text-align: center;
+letter-spacing: 0.005em;
+}
+.googleDiv{
+    width: 202px;
+    height: 60px;
+}
+.googlePlay{
+border: none;
+border-radius: 1px solid black;
+color: white;
+background: black;
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 120%;
+text-align: center;
+letter-spacing: 0.005em;
+}

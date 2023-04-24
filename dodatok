@@ -1,0 +1,18 @@
+ <ul>
+        <li class="advantageItem">
+            <img src="./img/liIco.png">
+            <p>Lorem</p>
+        </li>
+        <li class="advantageItem">
+            <img src="./img/liIco.png">
+            <p>Lorem</p>
+        </li>
+        <li class="advantageItem">
+            <img src="./img/liIco.png">
+            <p>Lorem</p>
+        </li>
+        <li class="advantageItem">
+            <img src="./img/liIco.png">
+            <p>Lorem</p>
+        </li>
+    </ul>
