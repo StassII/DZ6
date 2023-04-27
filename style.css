@@ -193,7 +193,7 @@ letter-spacing: 0.005em;
 color: #11142D;
 }
 .priceInput{
-width: 720px;
+width: 810px;
 height: 56px;
 left: 152px;
 top: 1491px;
@@ -234,7 +234,7 @@ letter-spacing: 0.005em;
 color: #11142D;
 }
 .downPayment{
-width: 145px;
+width: 810px;
 height: 19px;
 font-style: normal;
 font-weight: 700;
@@ -244,7 +244,7 @@ letter-spacing: 0.005em;
 color: #11142D;
 }
 .inputPayment{
-width: 720px;
+width: 810px;
 height: 56px;
 border: 1px solid #FA3C45;
 border-radius: 8px;
@@ -368,18 +368,49 @@ color: #92929D;
     justify-content: space-between;
 }
 .appDiv{
-    width: 202px;
-    height: 60px;
+    width: 430px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+.btna{
+    padding: ;
+    width: 203px;
+    height: 60px;
+    cursor: pointer;
+}
+.btnua{
+    text-align: left;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    letter-spacing: 0.005em;
+}
+.textDark{
+    color: black;
+}
+.textLight{
+    color: white;
+}
+
 .appStore{
 cursor: pointer;
-border: none;
-font-style: normal;
-font-weight: 700;
-font-size: 16px;
-line-height: 120%;
-text-align: center;
-letter-spacing: 0.005em;
+background: white;
+border: 1px solid white;
+}
+.playMarket{
+    background: black;
+    border: none;
+}
+.btnu{
+    text-align: left;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    letter-spacing: 0.005em;
+
 }
 .googleDiv{
     width: 202px;
@@ -387,7 +418,6 @@ letter-spacing: 0.005em;
 }
 .googlePlay{
 cursor: pointer;
-border: none;
 border-radius: 1px solid black;
 color: white;
 background: black;
@@ -421,7 +451,8 @@ color: #92929D;
 }
 .premFree{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    column-gap: 45px;
 }
 .premBtn{
 align-items: center;
@@ -439,14 +470,76 @@ align-items: center;
 padding: 18px 24px;
 width: 192px;
 height: 56px;
-border: none;
-background: #FA3C45;
+border: 1px solid #FA3C45;
 border-radius: 8px;
-color: white;
+color: #FA3C45;
 }
 .last{
+display: flex;
+justify-content: space-between;
 width: 100%;
 height: 407px;
-margin: 133px auto;
+margin: 100px auto;
 background: #C5010A;
 }
+.lastFirst{
+    display: flex;
+    margin: 104px auto;
+    column-gap: 30px ;
+    
+}
+.lastD{
+    margin: 104px auto;
+}
+.logImg{
+width: 135.4px;
+height: 56px;
+}
+.lastText{
+width: 196px;
+height: 72px;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 130%;
+letter-spacing: 0.008em;
+color: #FFFFFF;
+
+}
+.copyright{
+width: 272px;
+height: 19px;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 120%;
+letter-spacing: 0.005em;
+color: #FFFFFF;
+}
+.company{
+width: 74px;
+height: 19px;
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 120%;
+letter-spacing: 0.005em;
+color: #FFFFFF;
+}
+.p{
+margin: 20px auto;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 130%;
+letter-spacing: 0.008em;
+color: #FFFFFF;
+}
+.srcGroup{
+    width: 15px;
+    height: 18px;
+}
+.pc{
+    color: white;
+}
+
