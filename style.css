@@ -374,6 +374,7 @@ color: #92929D;
     align-items: center;
 }
 .btna{
+    padding-left: 60px;
     width: 203px;
     height: 60px;
     cursor: pointer;
@@ -396,11 +397,13 @@ color: #92929D;
 .appStore{
 cursor: pointer;
 background: white;
-border: 1px solid white;
+border-radius: 8px;
+border: 1px solid #cfcfcf;
 }
 .playMarket{
 background: black;
 border-radius: 8px;
+border: none;
 }
 .btnu{
     text-align: left;
@@ -493,6 +496,7 @@ background: #C5010A;
 .logImg{
 width: 135.4px;
 height: 56px;
+margin-bottom: 40px;
 }
 .lastText{
 width: 196px;
@@ -503,6 +507,7 @@ font-size: 14px;
 line-height: 130%;
 letter-spacing: 0.008em;
 color: #FFFFFF;
+margin-bottom: 60px;
 
 }
 .copyright{
@@ -540,5 +545,10 @@ color: #FFFFFF;
 }
 .pc{
     color: white;
+}
+.row{
+    display: flex;
+    column-gap: 10px;
+    margin-bottom: 10px;
 }
 
