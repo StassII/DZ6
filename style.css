@@ -374,7 +374,6 @@ color: #92929D;
     align-items: center;
 }
 .btna{
-    padding: ;
     width: 203px;
     height: 60px;
     cursor: pointer;
@@ -400,8 +399,8 @@ background: white;
 border: 1px solid white;
 }
 .playMarket{
-    background: black;
-    border: none;
+background: black;
+border-radius: 8px;
 }
 .btnu{
     text-align: left;
